@@ -4,12 +4,16 @@
 日期：2020年10月16日
 """
 
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-def addTwoNumbers(self,l1: ListNode, l2: ListNode):
+
+
+class Solution(object):
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode):
         if l1 is None:
             return l2
         if l2 is None:
